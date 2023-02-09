@@ -12,4 +12,8 @@ router.post('/enquiry', (req, res) => {
 
 })
 
+router.get('/',(req,res)=>{
+    res.render(<h1>hiii</h1>)
+})
+
 module.exports = router
